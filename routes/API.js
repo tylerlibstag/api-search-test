@@ -1,5 +1,7 @@
 const userCrit = require("../models/userCrit");
 
+app.use("/api", apiRoutes);
+
 const router = require("express").Router();
 
 router.get("/api/userCrit", (req, res) => {
